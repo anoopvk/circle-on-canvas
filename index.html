@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <span style="font-size: x-large;">A<b class="noob">NOOB</b>IE</span>
+        <div id="myLinks">
+            <div class="controlscontainer">
+                <label for="speedMultiplier"> speed (0 to 50)</label>
+                <br>
+                <input type="range" class="range" name="speedMultiplier" id="speedMultiplier" min="1" max="50" value="10">
+                <br>
+                <label for="ballCount"> Ball count (0 to 1000)</label>
+                <br>
+                <input type="range" class="range" name="ballCount" id="ballCount" min="1" max="1000" value="50">
+                <br>
+                <label for="ballSizeVarience"> Ball size Varience (1 to 50)</label>
+                <br>
+                <input type="range" class="range" name="ballSizeVarience" id="ballSizeVarience" min="1" max="50" value="10">
+                <br>
+        
+                <label for="ballSizeAdder"> Ball size Adder(1 to 50)</label>
+                <br>
+                <input type="range" class="range" name="ballSizeAdder" id="ballSizeAdder" min="1" max="50" value="5">
+                <br>
+                <label for="trail"> Trailing </label>
+                <input type="checkbox" class="chbx" name="trail" id="trail">
+                <br>
+                <input type="submit" onclick="handleControlClick()" value="submit">
+            </div>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <span class="icon" >
+            controls &nbsp; <i class="fa fa-bars"></i>
+        </span>
+    </div>
+
+<!-- 
+    <div class="controlscontainer">
+        <label for="speedMultiplier"> speed (0 to 50)</label>
+        <br>
+        <input type="range" class="range" name="speedMultiplier" id="speedMultiplier" min="1" max="50" value="10">
+        <br>
+        <label for="ballCount"> Ball count (0 to 1000)</label>
+        <br>
+        <input type="range" class="range" name="ballCount" id="ballCount" min="1" max="1000" value="10">
+        <br>
+        <label for="ballSizeVarience"> Ball size Varience (1 to 50)</label>
+        <br>
+        <input type="range" class="range" name="ballSizeVarience" id="ballSizeVarience" min="1" max="50" value="10">
+        <br>
+
+        <label for="ballSizeAdder"> Ball size Adder(1 to 50)</label>
+        <br>
+        <input type="range" class="range" name="ballSizeAdder" id="ballSizeAdder" min="1" max="50" value="5">
+        <br>
+
+        <input type="submit" onclick="handleControlClick()" value="submit">
+    </div> -->
+
+
+
+    
+    <div class="canvascontainer">
+        <canvas></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

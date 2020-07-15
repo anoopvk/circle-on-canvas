@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+body,html{
+    margin: 0;
+    /* box-sizing: content-box; */
+    font-family: 'Montserrat', sans-serif;
+}
+.controlscontainer{
+    /* border: 1px solid black; */
+    /* background-color: rgba(95, 190, 249, 0.233); */
+    background-image: linear-gradient(white,rgba(95, 190, 249, 0.233), white);
+    text-align: center;
+    /* width: fit-content; */
+    padding: 10px;
+}
+
+.range {
+    margin-bottom: 15px;
+    width: 200px;
+}
+.chbx{
+  margin-bottom: 15px;
+
+}
+.canvascontainer{
+    margin:20px 0;
+}
+canvas{
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    /* height: 0; */
+    /* transition: all ease 2s; */
+  }
+  
+  /* Style navigation menu links */
+  .topnav span {
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav span.icon {
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: default;
+}
+.noob{
+    
+    font-weight: 900;
+}
+  
+  /* Add a grey background color on mouse-over */
+  /* .topnav span:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+  
